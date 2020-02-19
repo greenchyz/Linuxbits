@@ -3,7 +3,6 @@ Privesc Linux
 Privilege Escalation through sudo. Make sure none of these are configured on secure.
 
 SUDO{
-
 using vi/vim?
 sudo vi/vim 
 :shell
