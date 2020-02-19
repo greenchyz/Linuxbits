@@ -1,0 +1,10 @@
+Vim Commands
+
+dd; delete line
+3 dd; delete 3 lines
+
+u; undo
+
+:%s; search
+
+
